@@ -1,0 +1,122 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+}
+/* **************WRAPPER***************** */
+.wrapper {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.185), rgb(246, 246, 246));
+}
+
+/* **************MUTLIPLE USE***************** */
+.header h2,
+.footer {
+  color: whitesmoke;
+}
+
+.header,
+.footer {
+  background: linear-gradient(
+    45deg,
+    rgba(11, 44, 76, 0.877),
+    rgba(53, 90, 170, 0.504)
+  );
+}
+
+/* **************HEADER***************** */
+.header {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link {
+  color: whitesmoke;
+}
+a:visited {
+  color: whitesmoke;
+}
+a:hover {
+  color: rgba(0, 0, 255, 0.8);
+}
+a:active {
+  color: #ffffff6f;
+}
+
+/* **************MAIN CONTAINER***************** */
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+
+/* **************FORM SECTION***************** */
+
+.form-text {
+  padding: 80px 0 0 90px;
+  margin-top: 15%;
+}
+
+.form div {
+  margin-bottom: 10px;
+}
+
+.input1,
+.input2 {
+  height: 25px;
+  width: 370px;
+  border-radius: 5px;
+}
+
+.email,
+.password {
+  display: block;
+}
+
+/* **************BUTTON***************** */
+
+.btn {
+  background-color: rgba(25, 41, 79, 0.881);
+  color: whitesmoke;
+  border: none;
+  padding: 11px;
+  font-size: small;
+  border-radius: 11px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn1 {
+  width: 370px;
+  margin-bottom: 10px;
+}
+.btn2 {
+  width: 370px;
+}
+.btn:hover {
+  background-color: #ffffffb6;
+  color: black;
+}
+
+/* **************FOOTER***************** */
+.footer {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
