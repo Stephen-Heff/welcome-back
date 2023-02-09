@@ -1,75 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- When I save my work, for the self closing tags, my vs code automatically puts the "/" in front of them. I tried to take them out but whenever I resave they come back. I tied looking at my setting but I could not figure it out. -->
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Assignment 1</title>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="header">
-        <h2>Assignment 1</h2>
-        <div class="nav">
-          <div class="flex-item-inner"><a href="#">Home</a></div>
-          <div class="flex-item-inner"><a href="#">About</a></div>
-          <div class="flex-item-inner"><a href="#">Shop</a></div>
-          <div class="flex-item-inner"><a href="#">Log in</a></div>
-        </div>
-      </div>
-      <div class="main-container">
-        <div class="main">
-          <div class="form-text">
-            <h2>Welcome back</h2>
-            <p>Welcome back! Please enter your details</p>
 
-            <form class="form" method="post">
-              <div>
-                <label class="email" for="email">Email:</label>
-                <input
-                  id="email"
-                  class="input1"
-                  type="email"
-                  name="email"
-                  placeholder="123@gmail.com"
-                />
-              </div>
-              <div>
-                <label class="password" for="password">Password:</label>
-                <input
-                  class="input2"
-                  id="password"
-                  type="password"
-                  name="password"
-                  placeholder="********************"
-                />
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <title>Bookface</title>
+</head>
 
-              <div>
-                <input
-                  class="input3"
-                  type="checkbox"
-                  name="Remember"
-                  id="Remember"
-                />
-                <label for="Remember">Remember for 30 days</label>
-              </div>
-
-              <button class="btn btn1" type="submit">Sign in</button>
-              <button class="btn btn2" type="submit">
-                Sign in with Google
-              </button>
-            </form>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <h2>Bookface<< /h2>
+          <div class="nav">
+            <div class="flex-item-inner"><a href="#">Home</a></div>
+            <div class="flex-item-inner"><a href="#">About</a></div>
+            <div class="flex-item-inner"><a href="#">Shop</a></div>
+            <div class="flex-item-inner"><a href="#">Log in</a></div>
           </div>
-        </div>
-        <img
-          src="img/sideimg.jpg"
-          alt="a wall with vines on it"
-          height="800"
-          width="750"
-        />
-      </div>
-      <div class="footer">&copy; 2022, Assignment 1</div>
     </div>
-  </body>
+    <div class="main-container">
+      <div class="main">
+        <div class="form-text">
+          <h2>Welcome back</h2>
+          <p>Welcome back! Please enter your details</p>
+
+          <form class="form" method="post">
+            <div>
+              <label class="email" for="email">Email:</label>
+              <input id="email" class="input1" type="email" name="email" placeholder="123@gmail.com" />
+            </div>
+            <div>
+              <label class="password" for="password">Password:</label>
+              <input class="input2" id="password" type="password" name="password" placeholder="********************" />
+            </div>
+
+            <div>
+              <input class="input3" type="checkbox" name="Remember" id="Remember" />
+              <label for="Remember">Remember for 30 days</label>
+            </div>
+
+            <button class="btn btn1" type="submit">Sign in</button>
+            <button class="btn btn2" type="submit">
+              Sign in with Google
+            </button>
+          </form>
+        </div>
+      </div>
+      <img src="img/sideimg.jpg" alt="a wall with vines on it" height="800" width="750" />
+    </div>
+    <div class="footer">&copy; 2022, Bookface<< /div>
+    </div>
+</body>
+
 </html>
